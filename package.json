@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node js orange",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamzehobeidat/NodeJS.git"
+  },
+  "author": "Hamzeh obeidat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamzehobeidat/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Hamzehobeidat/NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
